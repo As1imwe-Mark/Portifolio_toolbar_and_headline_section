@@ -10,6 +10,14 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
 body {
   overflow-x: hidden;
   background-color: #f7f7f9;
@@ -624,6 +632,7 @@ textarea {
   display: none;
   position: fixed;
   top: 0;
+  overflow-y: scroll;
 
   /* overflow-x: hidden; */
   left: 0;

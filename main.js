@@ -17,18 +17,20 @@ items.forEach((e) => {
 const projects = [
   {
     id: 1,
-    image: './images/Snapshoot Portfolio.png',
-    image_d: './images/snap-1.png',
-    title_d: 'Tonic',
-    title: 'Tonic',
+    image: './images/project.png',
+    image_d: './images/project2.png',
+    title_d: 'Web Camp site',
+    title: 'Web Camp Site',
     client: 'CANOPY',
     client_d: 'CANOPY',
-    role: 'Back End Dev',
-    role_d: 'Back End Dev',
-    year: '2015',
-    year_d: '2015',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    description_d: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    role: 'FRONT End Dev',
+    role_d: 'FRONT End Dev',
+    year: '2023',
+    year_d: '2023',
+    description: 'Capstone Project Website is a project under Microverse Module 1 block 5, aimed to test my knowledge about the concepts learned in the module and help me build a website to display on my portfolio to stand out in the Job market. This project is meant to run on all devices because it has both mobile and desktop versions.',
+    description_d: 'Capstone Project Website is a project under Microverse Module 1 block 5, aimed to test my knowledge about the concepts learned in the module and help me build a website to display on my portfolio to stand out in the Job market. This project is meant to run on all devices because it has both mobile and desktop versions.',
+    link: 'https://as1imwe-mark.github.io/Web-Camp-Capstone-project/',
+    github:'https://github.com/As1imwe-Mark/Web-Camp-Capstone-project'
   },
   {
     id: 2,
@@ -105,7 +107,6 @@ projects.forEach((card) => {
         <p class="works-description_desktop">${card.description_d}</p>
             <ul class="works-stacks">
                 <li class="html"><a href="" class="html">HTML</a></li>
-                <li class="ruby_on_rails"><span class="ruby_on_rails">Ruby on rails</span></li>
                 <li class="css"><a href="" class="css">CSS</a></li>
                 <li class="javaScript"><a href="" class="javascript">JavaScript</a></li>
             </ul>
@@ -154,14 +155,13 @@ function Selection (e){
       <div class='pop_links'>
       <ul class="works-stacks">
               <li class="html"><a href="" class="html">HTML</a></li>
-              <li class="ruby_on_rails"><span class="ruby_on_rails">Ruby on rails</span></li>
               <li class="css"><a href="" class="css">CSS</a></li>
               <li class="javaScript"><a href="" class="javascript">JavaScript</a></li>
           </ul>
        <div class="pop_btns">
-            <button type="button" class="more-projects">See live <span class="material-symbols-outlined">
+            <button type="button" class="more-projects"><a href="${item.link}">See live</a> <span class="material-symbols-outlined">
                 open_in_new
-                </span></button> <span><button type="button" class="more-projects git">See source<img src="Icons/github.png" width="16px" alt="github"></button></span>
+                </span></button><span><button type="button" class="more-projects git"><a href="${item.github}">See source</a><img src="Icons/github.png" width="16px" alt="github"></button></span>
         </div>
       </div>
       </div>
