@@ -211,8 +211,6 @@ function validation (){
     }
   }
 
-  // Storing Data In LocalStorage
-
   // Loading saved Data
   let user=JSON.parse(localStorage.getItem('user'));
   if(user){
