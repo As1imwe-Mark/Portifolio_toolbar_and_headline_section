@@ -18,10 +18,10 @@ const projects = [
   {
     id: 1,
     image: './images/snap-1.png',
-    image_d: './images/snap-12.png',
+    image_d: './images/snap-7.png',
     title_d: 'Web Camp site',
-    title: 'Web Camp Site',
-    client: 'CANOPY',
+    title: 'Web Camp',
+    client: 'AsmaDev',
     client_d: 'CANOPY',
     role: 'FRONT End Dev',
     role_d: 'FRONT End Dev',
