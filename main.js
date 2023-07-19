@@ -17,8 +17,8 @@ items.forEach((e) => {
 const projects = [
   {
     id: 1,
-    image: '../images/project.png',
-    image_d: '../images/project2.png',
+    image: './images/snap-1.png',
+    image_d: '../images/snap-12.png',
     title_d: 'Web Camp site',
     title: 'Web Camp Site',
     client: 'CANOPY',
