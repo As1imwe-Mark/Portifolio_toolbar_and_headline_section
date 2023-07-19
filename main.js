@@ -18,7 +18,7 @@ const projects = [
   {
     id: 1,
     image: './images/snap-1.png',
-    image_d: '../images/snap-12.png',
+    image_d: './images/snap-12.png',
     title_d: 'Web Camp site',
     title: 'Web Camp Site',
     client: 'CANOPY',
